@@ -115,6 +115,7 @@ $salas_cadastradas = $stmt_busca_salas->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <title>Painel do Organizador</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Logo-JogosDeInverno2026.png" type="image/x-icon">
     <style>
         .container { max-width: 600px; margin-top: 40px; margin-bottom: 40px;}
         .box-formulario {

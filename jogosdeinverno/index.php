@@ -47,6 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrada - Pontuação de Inverno</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Logo-JogosDeInverno2026.png" type="image/x-icon">
     <style>
         /* Estilos específicos para esta página de entrada */
         .main-options {

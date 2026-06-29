@@ -14,6 +14,7 @@ $salas = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <title>Tabela de Pontuação</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Logo-JogosDeInverno2026.png" type="image/x-icon">
     <style> 
         .container {
             max-width: 800px;
@@ -74,6 +75,7 @@ $salas = $stmt->fetchAll(PDO::FETCH_ASSOC);
             color: #ffffff;
         }
     </style>
+    
 </head>
 <body>
     <div class="container">
