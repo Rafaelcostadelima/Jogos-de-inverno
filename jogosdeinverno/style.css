@@ -1,0 +1,115 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo com gradiente de inverno (azul escuro para azul gelo) */
+body {
+    background: linear-gradient(135deg, #0F2027 0%, #203A43 50%, #2C5364 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Efeito de "Gelo Fosco" (Glassmorphism) para as caixas */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px); /* Desfoque do vidro/gelo */
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Estilo dos Títulos */
+h1, h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #E0F7FA; /* Azul super claro */
+}
+
+/* Formulários */
+form {
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #B2EBF2;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: #0F2027;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #80DEEA; /* Brilho azul ao clicar */
+}
+
+/* Botão com cores frias */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #00B4DB, #0083B0);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Links (como o botão de sair) */
+a.btn-sair {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #E0F7FA;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+a.btn-sair:hover {
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+}
+
+/* Mensagem de erro */
+.erro {
+    background: rgba(255, 77, 77, 0.2);
+    color: #ffb3b3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 77, 77, 0.3);
+    text-align: center;
+}
