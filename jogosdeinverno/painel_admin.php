@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['acao'])) {
             $pontos_ganhos = 5;
             $texto_colocacao = "2º Lugar 🥈";
         } elseif ($colocacao == '3') {
-            $pontos_ganhos = 0;
+            $pontos_ganhos = 2;
             $texto_colocacao = "3º Lugar 🥉";
         } else {
             $pontos_ganhos = 0;
